@@ -45,5 +45,8 @@ public class LivingThing {
             System.out.printf("モンスター%sは倒れた。\n", name);
         }
     }
+    public int getAttack(){
+        return this.attack;
+    }
 }
 
